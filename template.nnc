@@ -1,0 +1,25 @@
+int a;
+int b;
+int c;
+
+int write(int a) {
+
+	return 0;
+}
+
+int Addition(int a, int b) {
+	return a + b;
+}
+
+int Multiply(int a, int b) {
+	return a * b;
+}
+
+int main() {
+	a = 6;
+	b = 9;
+	c = 69;
+	Multiply(Addition(a, b), c);
+	write("Hello world");
+	return 0;
+}

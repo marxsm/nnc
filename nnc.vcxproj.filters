@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Logger">
+      <UniqueIdentifier>{f706ae50-9b2d-4c5d-9dac-909e1bba371b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main">
+      <UniqueIdentifier>{2824ff07-55a6-42dc-9595-647c9eca3de0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Logger">
+      <UniqueIdentifier>{35ebcf24-b11b-4a3e-a8a8-79e4957ee17a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Compiler">
+      <UniqueIdentifier>{eb044551-0670-42d6-8a70-400c7a4e6e35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Compiler">
+      <UniqueIdentifier>{851eab09-7f94-4901-b563-e7d55b7760b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Matcher">
+      <UniqueIdentifier>{a4498fdb-1d1f-4c5d-9e2f-1b341d9e6cbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Matcher">
+      <UniqueIdentifier>{c20feb0d-9e43-43df-b702-27df93e86d0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Reader">
+      <UniqueIdentifier>{ddbf5833-544a-4346-a6ee-bec39c3685f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DataType">
+      <UniqueIdentifier>{c85dd427-9750-407b-b5ec-bd7549cbc439}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Node">
+      <UniqueIdentifier>{d142f5da-fabe-4b3a-8877-bd39d7a11ad5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Node">
+      <UniqueIdentifier>{84c481d3-81af-442d-9c09-3601d522be37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Node\Declaration">
+      <UniqueIdentifier>{1822ce65-03ac-4a87-8f4d-d8c18f61abf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Reader">
+      <UniqueIdentifier>{b3ce0325-70ed-42a4-b2ef-aee1bd7dbf6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Node\Expression">
+      <UniqueIdentifier>{56138622-f14c-4692-aed2-1a159551b0c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Node\Statement">
+      <UniqueIdentifier>{6116d3a7-a775-497b-ab25-61c53dc32169}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{36f61e47-7c49-4d1a-87d1-59ab049acc84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{7d82fefe-295a-478f-8d49-c88f05471989}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Writter">
+      <UniqueIdentifier>{d9613c7b-a6d5-4f5b-885f-b458729c77a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Writter">
+      <UniqueIdentifier>{8d35d5ee-afa7-4471-9487-e133df411480}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Source Files\Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="Error.cpp">
+      <Filter>Source Files\Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="Success.cpp">
+      <Filter>Source Files\Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="Warning.cpp">
+      <Filter>Source Files\Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="Compiler.cpp">
+      <Filter>Source Files\Compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="Reader.cpp">
+      <Filter>Source Files\Reader</Filter>
+    </ClCompile>
+    <ClCompile Include="GetCharType.cpp">
+      <Filter>Source Files\Reader</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadFile.cpp">
+      <Filter>Source Files\Reader</Filter>
+    </ClCompile>
+    <ClCompile Include="GetTokens.cpp">
+      <Filter>Source Files\Reader</Filter>
+    </ClCompile>
+    <ClCompile Include="GetToken.cpp">
+      <Filter>Source Files\Reader</Filter>
+    </ClCompile>
+    <ClCompile Include="CurrentTokenIsName.cpp">
+      <Filter>Source Files\Matcher</Filter>
+    </ClCompile>
+    <ClCompile Include="GetCharTypeAdvanced.cpp">
+      <Filter>Source Files\Matcher</Filter>
+    </ClCompile>
+    <ClCompile Include="EmptyToken.cpp">
+      <Filter>Source Files\Matcher</Filter>
+    </ClCompile>
+    <ClCompile Include="Matcher.cpp">
+      <Filter>Source Files\Matcher</Filter>
+    </ClCompile>
+    <ClCompile Include="Matching.cpp">
+      <Filter>Source Files\Matcher</Filter>
+    </ClCompile>
+    <ClCompile Include="Match.cpp">
+      <Filter>Source Files\Matcher</Filter>
+    </ClCompile>
+    <ClCompile Include="PrevToken.cpp">
+      <Filter>Source Files\Matcher</Filter>
+    </ClCompile>
+    <ClCompile Include="NextToken.cpp">
+      <Filter>Source Files\Matcher</Filter>
+    </ClCompile>
+    <ClCompile Include="GetName.cpp">
+      <Filter>Source Files\Matcher</Filter>
+    </ClCompile>
+    <ClCompile Include="GetNumberConstant.cpp">
+      <Filter>Source Files\Matcher</Filter>
+    </ClCompile>
+    <ClCompile Include="GetStringConstant.cpp">
+      <Filter>Source Files\Matcher</Filter>
+    </ClCompile>
+    <ClCompile Include="Equal.cpp">
+      <Filter>Source Files\Matcher</Filter>
+    </ClCompile>
+    <ClCompile Include="GetOperator.cpp">
+      <Filter>Source Files\Matcher</Filter>
+    </ClCompile>
+    <ClCompile Include="Declaration.cpp">
+      <Filter>Source Files\Node\Declaration</Filter>
+    </ClCompile>
+    <ClCompile Include="getDeclaration.cpp">
+      <Filter>Source Files\Node\Declaration</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildTree.cpp">
+      <Filter>Source Files\Compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="Optimize.cpp">
+      <Filter>Source Files\Compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="CurrentTokenIsNumber.cpp">
+      <Filter>Source Files\Matcher</Filter>
+    </ClCompile>
+    <ClCompile Include="Expression.cpp">
+      <Filter>Source Files\Node\Expression</Filter>
+    </ClCompile>
+    <ClCompile Include="getExpression.cpp">
+      <Filter>Source Files\Node\Expression</Filter>
+    </ClCompile>
+    <ClCompile Include="CurrentTokenIsOperator.cpp">
+      <Filter>Source Files\Matcher</Filter>
+    </ClCompile>
+    <ClCompile Include="Statement.cpp">
+      <Filter>Source Files\Node\Statement</Filter>
+    </ClCompile>
+    <ClCompile Include="getStatement.cpp">
+      <Filter>Source Files\Node\Statement</Filter>
+    </ClCompile>
+    <ClCompile Include="Writter.cpp">
+      <Filter>Source Files\Writter</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCloseFile.cpp">
+      <Filter>Source Files\Writter</Filter>
+    </ClCompile>
+    <ClCompile Include="Writeln.cpp">
+      <Filter>Source Files\Writter</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpressionGenerateAsm.cpp">
+      <Filter>Source Files\Node\Expression</Filter>
+    </ClCompile>
+    <ClCompile Include="StatementGenerateAsm.cpp">
+      <Filter>Source Files\Node\Statement</Filter>
+    </ClCompile>
+    <ClCompile Include="DeclarationGenerateAsm.cpp">
+      <Filter>Source Files\Node\Declaration</Filter>
+    </ClCompile>
+    <ClCompile Include="getConstLabel.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="getParameter.cpp">
+      <Filter>Source Files\Node\Declaration</Filter>
+    </ClCompile>
+    <ClCompile Include="IncludeLibrary.cpp">
+      <Filter>Source Files\Writter</Filter>
+    </ClCompile>
+    <ClCompile Include="DeclarationGenerateDataAsm.cpp">
+      <Filter>Source Files\Node\Declaration</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpressionGenerateDataAsm.cpp">
+      <Filter>Source Files\Node\Expression</Filter>
+    </ClCompile>
+    <ClCompile Include="StatementGenerateDataAsm.cpp">
+      <Filter>Source Files\Node\Statement</Filter>
+    </ClCompile>
+    <ClCompile Include="GetSetTokens.cpp">
+      <Filter>Source Files\Matcher</Filter>
+    </ClCompile>
+    <ClCompile Include="CompileToAsm.cpp">
+      <Filter>Source Files\Compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="CompileToBin.cpp">
+      <Filter>Source Files\Compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="fileNameProcessor.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Logger.h">
+      <Filter>Header Files\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="Compiler.h">
+      <Filter>Header Files\Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="Reader.h">
+      <Filter>Header Files\Reader</Filter>
+    </ClInclude>
+    <ClInclude Include="Matcher.h">
+      <Filter>Header Files\Matcher</Filter>
+    </ClInclude>
+    <ClInclude Include="StandardType.h">
+      <Filter>Header Files\DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="Declaration.h">
+      <Filter>Header Files\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="Expression.h">
+      <Filter>Header Files\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="Element.h">
+      <Filter>Header Files\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Statement.h">
+      <Filter>Header Files\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="Writter.h">
+      <Filter>Header Files\Writter</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
